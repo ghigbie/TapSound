@@ -1,9 +1,9 @@
-cnavas {
+canvas{
 	width: 100%;
-	background: #000000;
+	background: #23eeff;
 }
 
 body, html{
 	height: 100%;
-	margin 0;
+	margin: 0;
 }
