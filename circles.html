@@ -7,13 +7,9 @@
 
 	<script type="text/paperscript" canvas="myCanvas">
 
-	var xCoordinate = Math.floor(Math.random * 300);
-	var yCoordinate = Math.floor(Math.random * 300); 
-	var radius = Math.floor(Math.random * 50);
-
 	function onKeyDown(event){
-		new Path.Circle(new Point(xCoordinate, yCoordinate), radius).fillColor = "#ffffff";
-	}
+		new Path.Circle(new Point(300, 200), 40).fillColor = "#ffffff";
+	} 
 
 
 
