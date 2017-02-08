@@ -1,9 +1,13 @@
 canvas{
 	width: 100%;
-	background: #23eeff;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #232323;
 }
 
 body, html{
+	width: 100%;
 	height: 100%;
 	margin: 0;
 }
